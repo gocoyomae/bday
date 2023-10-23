@@ -317,7 +317,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/footer-bg.jpg") top right;
+  background: url("../img/hero-bg.jpg") top right;
   background-size: cover;
   position: relative;
 }
@@ -1251,8 +1251,8 @@ section {
   font-size: 14px;
 }
 
-.contact .php-email-form input::focus,
-.contact .php-email-form textarea::focus {
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
   background-color: #ffb727;
 }
 
@@ -1325,7 +1325,7 @@ section {
 }
 
 #footer p {
-  font-size: 15;
+  font-size: 15px;
   font-style: italic;
   padding: 0;
 }
